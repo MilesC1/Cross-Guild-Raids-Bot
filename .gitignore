@@ -1,0 +1,37 @@
+# Secrets and personal/deployment data
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*secret*
+config.local.*
+# Databases and runtime history
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+data/
+logs/
+*.log
+# Python and tooling
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.idea/
+.vscode/
+.DS_Store
+# Never add deployment archives or old history
+*.zip
+*.tar.gz
+# Private review notes
+*_PRIVATE_*
